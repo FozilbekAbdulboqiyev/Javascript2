@@ -10,12 +10,14 @@
 
 
 // 3
-// let arr = ["a", "b"];
+let arr = ["a", "b"];
 
-// arr.push(function(){
-//     alert( this );
-// });
-// arr[2]();
+arr.push(function(){
+    console.log(this);
+});
+arr[2]();
+
+
 // function 
 
 //4
